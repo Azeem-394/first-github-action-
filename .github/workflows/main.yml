@@ -1,0 +1,14 @@
+name: noor ul huda
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: Greetings
+       run: echo "Hello World"
+  
